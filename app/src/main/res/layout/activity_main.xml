@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8B86DEEA"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Vitória Helena"
+        android:textColor="#E91E63"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158" />
+
+    <TextView
+        android:id="@+id/txtIntroducao"
+        android:layout_width="352dp"
+        android:layout_height="299dp"
+        android:text="Mauris hendrerit quis sapien quis suscipit. Nulla facilisi. Aliquam cursus viverra neque, nec fringilla neque mollis sed. Proin volutpat convallis ligula, in luctus diam bibendum eget. Pellentesque imperdiet leo augue, sit amet laoreet neque porta in. Aliquam faucibus gravida enim nec iaculis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque accumsan mauris sed risus finibus aliquam. Sed ultricies, diam eu blandit mollis, lectus nunc tristique magna, vel commodo lorem diam vitae tortor. Maecenas vestibulum sagittis turpis, ut semper tortor volutpat in. Duis posuere, metus id sodales convallis, orci erat pulvinar libero, id dapibus lorem ante a dolor. Curabitur elementum est erat, id tincidunt felis finibus quis. Integer in lobortis purus. Fusce eleifend lectus urna, ac volutpat felis pellentesque et. Mauris pellentesque ligula ipsum, quis tincidunt urna pellentesque non.  "
+        android:textAlignment="center"
+        android:textColor="#201313"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="260dp"
+        android:layout_height="163dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.931"
+        app:srcCompat="@drawable/brubaleta" />
+</androidx.constraintlayout.widget.ConstraintLayout>
